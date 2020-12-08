@@ -13,11 +13,9 @@
 # limitations under the License.
 #
 
-
 set(BuildConfig_FOUND FALSE)
 
 message(STATUS "current compiler-id : ${CMAKE_C_COMPILER_ID}")
-#if (${CMAKE_C_COMPILER_ID} STREQUAL "Clang")
 if (${CMAKE_C_COMPILER_ID} MATCHES "Clang")
   set(COMPILER_IS_CLANG 1)
   set(COMPILER_IS_GNU 0)
