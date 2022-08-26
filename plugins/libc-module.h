@@ -12,9 +12,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- *
- * Author : zhongxiao.yzx@alibaba-inc.com
- * Date : 2019-08-01
  */
 
 #ifndef X_SRC_INTERPRETER_HOST_LIBC_MODULE_H_

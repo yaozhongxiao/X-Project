@@ -51,7 +51,6 @@ public:
   void SetCallMethod(const std::string &method, const std::string &params);
 
   // check develop docs for detail signatures
-  // https://yuque.antfin-inc.com/uf1pgz/yfkeyo/ff3a2v
   DECLARE_EXPORT_CLASS_METHOD(GetBlockHash, int32_t, uint64_t block_num,
                               uint32_t hash_data /*out*/,
                               uint32_t hash_len_offset /*out*/);
